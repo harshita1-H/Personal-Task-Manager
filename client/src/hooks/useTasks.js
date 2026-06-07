@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 
-const API = 'http://localhost:5000/api/tasks';
+const API = 'https://personal-task-manager-hzh4.onrender.com/api/tasks';
 
 export function useTasks(filters = {}) {
   const [tasks, setTasks] = useState([]);
